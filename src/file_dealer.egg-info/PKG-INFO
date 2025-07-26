@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: file_dealer
-Version: 0.2.2
+Version: 0.2.3
 Summary: Helper functions to read, write, append and delete files easily.
 Author-email: Ghena <ghenadiesturza@gmail.com>
 License: MIT

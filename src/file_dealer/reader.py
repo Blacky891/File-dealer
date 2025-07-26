@@ -1,6 +1,19 @@
 
 
 def get_data():
+    """
+    Reads the content of a specified file and returns it.
+
+    Prompts the user to enter the file path. If the file exists and is not empty,
+    its contents are printed and returned. If the file is empty or an error occurs,
+    an appropriate message is displayed.
+
+    Args:
+        file_name (str): The path to the file to be read (entered by the user).
+
+    Returns:
+        str or None: The file content if successful; None if the file is empty or an error occurs.
+    """
     file_name = input("Enter file location: ").strip()
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
@@ -22,6 +35,18 @@ def get_data():
 
 
 def read_data():
+    """
+    Reads and displays the content of a specified file.
+
+    Prompts the user to enter the file path. If the file exists, its contents are printed.
+    If the file does not exist or an error occurs, an appropriate message is displayed.
+
+    Args:
+        file_name (str): The path to the file to be read (entered by the user).
+
+    Returns:
+        None: The function only prints output and returns None in case of error.
+    """
     file_name = input("Enter file location: ").strip()
     try:
         with open(file_name, 'r', encoding='utf-8') as f:
