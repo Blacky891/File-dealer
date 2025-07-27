@@ -40,4 +40,4 @@ Enter the data you want to write: <(the data i want to write)>
 
 (If any errors occur, the program won't realize the action and, instead, it will print out the error.)
 
-![file-dealer gif](https://github.com/user-attachments/assets/9bde25ef-88e1-405d-9cef-edd90269ea67)
+![Adobe Express - filedealer 2](https://github.com/user-attachments/assets/4216092f-4acd-4bc7-94d9-311b73810b67)
